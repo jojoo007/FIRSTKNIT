@@ -1,0 +1,101 @@
+---
+title: "First Knit"
+author: "Johanna Iniguez"
+date: "August 19,2019"
+output: 
+  html_document:
+    number_sections: true
+    toc: true
+---
+
+### `r as.character(Sys.Date())`
+
+```{r include=FALSE,echo=FALSE}
+require(tidyverse)
+if(!require("imager")) {install.packages("imager");require("imager")}
+
+```
+
+```{r echo=FALSE,out.width='100%'}
+xx<-getwd()
+Drive_ltr <- strtrim(xx,2)
+yy <- str_glue("{Drive_ltr}\\AAA_Owner_Info\\My_photo.jpg")
+my_pict <- load.image(yy)
+plot(my_pict,axes=FALSE,main="I'm Confused")
+```
+
+# A Little Survey
+
+Here are just a few questions so I can get to know you and so you can get practice submitting an assignment in Canvas.  For each question, insert your answer underneath. Make sure each answer is at the minimum a complete sentence with correctly spelled words and correct puncuation. Half the points in this assignment depend on your picture and name being correct!!  Be sure to put your photo in the AAA_Owner_Info folder and call it My_photo.jpg after first renaming the current one to Koala.jpg . 
+
+##Where are you now?  
+What row are you in, front,middle or back?  Do you usually choose a similiar row in other classes? What is the computer number where you are sitting?  How on a scale of 1 to 10 (1=low, 10=high) How you feel about periodic seat re-assignment, say how and why. Teams, have you ever worked on one in a class setting? 
+
+
+###my answer     
+  I am sitting in the middle third row computer number 27. I usually sit in the middle row in every class I attend. I do not like periodic seat re-assignment I rate it as a 2. Yes I have worked on a class team and I enjoyed it very much. 
+   
+     
+
+
+##Others and You?   
+What name do you prefer to be called by your classmates and instructor, if your buddys call you something but you want me to call you something else - what would that be? 
+
+
+###my answer     
+  The name I prefer to be called is "Jojo".
+   
+ 
+
+
+
+
+##Aspirations?   
+What do you want to achieve in life?  What college subject do you think would be of the greatest interest to you? What degree or certificate are you trying to achieve?
+
+###my answer     
+  
+   The achievement in life that I currently have is to join the Sheriff Department. The subject in college I take much intrest to is criminal justice. I would like to get my Master Degree at some point in life.
+ 
+
+
+
+
+##Past adventures?  
+Have you ever gone to foreign countries, if so which ones, if not Where might you go in the future?  Have you ever been in the military, if so which branch, if not which branch would you choose if you got drafted, and why?
+
+###my answer     
+
+ No i have never been to a foreign countries. In the future i would love to go to any foreign country that my bank account would allow me to go to. I have never been in the military and I would not want to join. If i got drafted I would try to get a note of disablilty. 
+  
+   
+  
+
+
+
+
+##Why are you taking Math 115?  
+What grade do you need to attain in stats to not upset your future plans, What is your plan?
+
+###my answer     
+  I needed to take Math 115 to finish my tranfer credits. My plan is to pass this class with an 
+  A and tranfer out of AVC .
+   
+ 
+
+
+
+
+
+##Homework Help and Getting around?  
+On a scale of 1 to 10, where 1 is a total dummy (doesn't know a mouse from a keyboard) and 10 is a complete geek (knows computer stuff in and out) How do you rate yourself?  Do you have a computer you can use at home? If so, what kind is it (windows, Apple, Linux)? Do you have internet access at home?  
+How do you get to class? Are there issues that limit when you can be at the college?Where and when did you attend high school?  Do you currently have a job?
+
+###my answer   
+  
+   I would rate myself at a 5. Yes I have a computer at home it is a window computer that also has internet access. I drive myself in order to get to class. I have no issues that limit me to getting to school. I attended pete knight high school graduated in year 2013. Yes I am currently employed. 
+  
+
+
+
+
